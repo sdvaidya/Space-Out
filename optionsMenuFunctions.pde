@@ -1,10 +1,9 @@
 public class optionsMenuFunctions{
   public void optionsMenu(){    
     background(11, 0, 105);
-    for (int i = 0; i < optionMenuStarCount; i++) {
+    for (int i = 0; i < 600; i++) {
       fill(237, 237, 5);
-      //rect( int(random(width)), int(random(height)), 4, 4);     RANDOM CHANGING PIXEL GENERATION
-      rect(optionStar_x[i], optionStar_y[i], 4, 4);
+      rect(random(width), random(height), 4, 4);
     }
 
     createColorWheel();
